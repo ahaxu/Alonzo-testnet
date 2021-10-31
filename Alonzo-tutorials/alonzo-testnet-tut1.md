@@ -10,8 +10,8 @@ Topics:
     - unlock fund
 
 Link to videos:
-- Part 1: https://www.youtube.com/watch?v=_2uldr5AYSc
-- Part 2: https://www.youtube.com/watch?v=hW8VjlQLMAE
+- Part 1: https://www.youtube.com/watch?v=hW8VjlQLMAE
+- Part 2: https://www.youtube.com/watch?v=_2uldr5AYSc
 
 ## Step by step to write and submit a smart contract to testnet
 
