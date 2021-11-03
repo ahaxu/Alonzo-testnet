@@ -16,7 +16,10 @@ main = do
   let nargs = length args
   let scriptnum = if nargs > 0 then read (args!!0) else 42
   let scriptname = if nargs > 1 then args!!1 else  "result.plutus"
+  putStrLn $ "sumDataSerialised: writing script name " ++ scriptname ++ " with datum " ++ (show scriptnum)
   writePlutusScript scriptnum scriptname sumDataSerialised sumDataSBS
+
+  putStrLn $ "sumWrappedSerialised: writing script name " ++ scriptname ++ " with datum " ++ (show scriptnum)
   writePlutusScript scriptnum scriptname sumWrappedSerialised sumWrappedSBS
 
 writePlutusScript :: Integer -> FilePath -> PlutusScript PlutusScriptV1 -> SBS.ShortByteString -> IO ()
